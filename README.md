@@ -1,41 +1,74 @@
 > _We're OGS, check out our work on [github.com/ogs-gmbh](https://github.com/ogs-gmbh)_
 
-# Project Template for React
+# MUI Components
 
-_A project template with a ready-to-use structure._
+\_Beautiful, reusable Material UI components for React — engineered for speed, consistency, and production-ready delivery.\_\_
 
 ![Preview](./docs/preview.avif)
 
-<a href="./LICENSE" target="_blank"><img alt="license badge" src="https://img.shields.io/github/license/OGS-GmbH/_react-template?color=0f434e&logo=hackthebox&logoColor=000000&labelColor=ffffff" /></a>
+<a href="./LICENSE" target="_blank"><img alt="license badge" src="https://img.shields.io/github/license/OGS-GmbH/mui-components?color=0f434e&logo=hackthebox&logoColor=000000&labelColor=ffffff" /></a>
+<a href="https://github.com/OGS-GmbH/mui-components/actions/workflows/main-trusted-deploy.yml" target="_blank"><img alt="workflow badge" src="https://img.shields.io/github/actions/workflow/status/OGS-GmbH/mui-components/main-trusted-deploy.yml?color=0f434e&logo=rocket&logoColor=000000&labelColor=ffffff" /></a>
+<a href="https://www.npmjs.com/package/@ogs-gmbh/mui-components" target="_blank"><img alt="npm badge" src="https://img.shields.io/npm/v/%40ogs-gmbh%2Fmui-components?color=0f434e&logo=npm&logoColor=000000&labelColor=ffffff" /></a>
 
-- **Easy to Set Up**\
-  Simple configuration lets you start your projects quickly without complex setup.
+- **Beautiful by Default**\
+  Polished Material UI components that help teams ship modern, consistent interfaces without reinventing the basics.
 
-- **Preconfigured Tooling**\
-  Includes Oxlint, Oxfmt, Rolldown, TypeScript and more tooling out of the box.
+- **Built for Reuse**\
+  A scalable component library structure designed to keep shared UI maintainable, extensible, and easy to adopt across projects.
 
-- **Modular Structure**\
-  Organized folder layout for scalable and maintainable projects.
+- **Type-Safe Developer Experience**\
+  Powered by TypeScript for reliable APIs, smoother integration, and more confidence while building and scaling features.
 
-- **Development Friendly**\
-  Quick start with minimal setup required for new applications.
+- **Production-Ready Tooling**\
+  Comes with testing, documentation, linting, and release workflows to support quality from development to deployment.
 
-## Tooling
+## Getting Started
 
-| Tool                | Extras                       |
-| ------------------- | ---------------------------- |
-| ✅ `oxlint`         |                              |
-| ✅ `oxfmt`          |                              |
-| ✅ `Rolldown`       | with `tsdown`                |
-| ✅ `TypeScript`     |                              |
-| ✅ `VitePress`      |                              |
-| ✅ `TypeDoc`        |                              |
-| ✅ `GitHub Actions` |                              |
-| ✅ `release-please` |                              |
-| ✅ `commitlint`     |                              |
-| ✅ `lint-staged`    |                              |
-| ✅ `husky`          |                              |
-| ✅ `Vitest`         | Coverage and `React` support |
+> [!IMPORTANT]
+> We're offering an extensive API-Reference covered with in-depth usage examples of this project.
+
+To get a starting point, simply refer to our documentation at [ogs-gmbh.github.io/mui-components](https://ogs-gmbh.github.io/mui-components).
+
+### Prerequisites
+
+- Node.js version 18 or higher
+- A package manager: e.g. npm, pnpm, ...
+
+### Installation
+
+Using npm:
+
+```sh
+$ npm install @ogs-gmbh/mui-components
+```
+
+<details>
+  <summary>Using a different package manager?</summary>
+  <br/>
+
+Using yarn:
+
+```sh
+$ pnpm add @ogs-gmbh/mui-components
+```
+
+Using pnpm:
+
+```sh
+$ pnpm add @ogs-gmbh/mui-components
+```
+
+Using bun:
+
+```sh
+$ bun add @ogs-gmbh/mui-components
+```
+
+</details>
+
+### Usage
+
+Usage may vary per component, so we recommend to check the [reference](https://ogs-gmbh.github.io/mui-components/reference). Every components has an example.
 
 ## License
 

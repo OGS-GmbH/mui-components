@@ -1,9 +1,17 @@
 {
-  "name": "@ogs-gmbh/_react-template",
+  "name": "@ogs-gmbh/mui-components",
   "version": "1.0.0",
-  "description": "A react project template with a ready-to-use structure.",
+  "description": "Beautiful, reusable Material UI components for React — engineered for speed, consistency, and production-ready delivery.",
   "keywords": [
-    "boilerplate"
+    "component-library",
+    "design-system",
+    "frontend",
+    "material-ui",
+    "mui",
+    "react",
+    "reusable-components",
+    "typescript",
+    "ui-components"
   ],
   "license": "MIT",
   "author": "OGS GmbH",
@@ -25,7 +33,6 @@
     "ci:pr:commitlint:main:commitlint": "commitlint",
     "ci:pr:lint:main:oxfmt": "oxfmt --check",
     "ci:pr:lint:main:oxlint": "oxlint",
-    "ci:test:main:vitest": "vitest run --coverage",
     "commit": "commit",
     "prepare": "husky",
     "vitepress": "bash ./.vitepress/scripts/pre-vitepress.sh && vitepress dev .vitepress",
