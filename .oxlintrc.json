@@ -1,0 +1,14 @@
+{
+  "$schema": "./node_modules/oxlint/configuration_schema.json",
+  "plugins": ["import", "jsdoc", "promise", "react"],
+  "extends": [
+    "./node_modules/@ogs-gmbh/oxlint-presets/eslint-recommended.json",
+    "./node_modules/@ogs-gmbh/oxlint-presets/jsdoc-recommended.json",
+    "./node_modules/@ogs-gmbh/oxlint-presets/typescript-recommended.json",
+    "./node_modules/@ogs-gmbh/oxlint-presets/react-recommended.json",
+    "./node_modules/@ogs-gmbh/oxlint-presets/oxc-recommended.json",
+    "./node_modules/@ogs-gmbh/oxlint-presets/promise-recommended.json",
+    "./node_modules/@ogs-gmbh/oxlint-presets/unicorn-recommended.json",
+    "./node_modules/@ogs-gmbh/oxlint-presets/import-recommended.json"
+  ]
+}
