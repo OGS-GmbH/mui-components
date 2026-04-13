@@ -3,8 +3,8 @@ layout: home
 isHome: true
 
 hero:
-  text: Quickstarting any project
-  tagline: A project template with a ready-to-use structure.
+  text: MUI Components
+  tagline: Beautiful, reusable Material UI components for React — engineered for speed, consistency, and production-ready delivery.
   actions:
     - theme: brand
       text: Get started
@@ -14,7 +14,7 @@ hero:
       link: /reference
     - theme: alt
       text: GitHub
-      link: https://github.com/OGS-GmbH/_code-template
+      link: https://github.com/OGS-GmbH/mui-components
 
 features:
   - icon: <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><path d="M11.02 2.81a1 1 0 0 1 1.96 0l1.05 5.56a2 2 0 0 0 1.6 1.6l5.56 1.05a1 1 0 0 1 0 1.96l-5.56 1.05a2 2 0 0 0-1.6 1.6l-1.05 5.56a1 1 0 0 1-1.96 0l-1.05-5.56a2 2 0 0 0-1.6-1.6l-5.56-1.05a1 1 0 0 1 0-1.96l5.56-1.05a2 2 0 0 0 1.6-1.6zM20 2v4M22 4h-4"/><circle cx="4" cy="20" r="2"/></svg>
