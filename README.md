@@ -2,7 +2,7 @@
 
 # MUI Components
 
-\_Beautiful, reusable Material UI components for React — engineered for speed, consistency, and production-ready delivery.\_\_
+_Beautiful, reusable Material UI components for React — engineered for speed, consistency, and production-ready delivery._
 
 ![Preview](./docs/preview.avif)
 
