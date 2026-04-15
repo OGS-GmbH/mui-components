@@ -1,7 +1,7 @@
 import { sidebarPlugin } from "@ogs-gmbh/vitepress-plugin-sidebar";
 import { defineConfig } from "vitepress";
 import { groupIconMdPlugin, groupIconVitePlugin } from "vitepress-plugin-group-icons";
-import packageJson from "../../package.json";
+import packageJson from "../../package.json" with { type: "json" };
 
 const repositoryName = packageJson.name.split("/").pop();
 
@@ -68,7 +68,18 @@ export default defineConfig({
     sidebar: [
       {
         text: "Guide",
-        items: [{ text: "Getting started", link: "/guide/" }]
+        items: [
+          { text: "Getting started", link: "/guide/" },
+          {
+            text: "Layouts",
+            items: [
+              {
+                text: "Holy Grail",
+                link: "/guide/holy-grail"
+              }
+            ]
+          }
+        ]
       },
       sidebarPlugin({
         path: "./dist/vitepress-src/reference",
