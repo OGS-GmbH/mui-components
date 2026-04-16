@@ -38,9 +38,9 @@ The layout expands to fill the available viewport space.
 
 ```txt
 Header
--------------------------
+---------------------------
 Sidebar | Content | Sidebar
--------------------------
+---------------------------
 Footer
 ```
 
@@ -105,9 +105,7 @@ The layout uses a horizontal main axis and distributes space across columns.
 ### Structure
 
 ```txt
-Sidebar |      Main Column      | Sidebar
-        |-----------------------|
-        |        Header         |
+Sidebar |        Header         | Sidebar
         |-----------------------|
         |        Content        |
         |-----------------------|
@@ -128,7 +126,6 @@ function Contained() {
       </HolyGrailColumn>
 
       <HolyGrailColumn expand>
-        {" "}
         {/* main column expands to fill remaining space */}
         <HolyGrailHeader>
           <ExampleHeader>HEADER</ExampleHeader>
@@ -169,8 +166,8 @@ instead of a top-level section.
 
 ```txt
 Header
--------------------------
-Sidebar |   Main Column   | Sidebar
+-----------------------------------
+Sidebar |                 | Sidebar
         |-----------------|
         |     Content     |
         |-----------------|
@@ -196,7 +193,6 @@ function ExpandedHeader() {
         </HolyGrailColumn>
 
         <HolyGrailColumn expand>
-          {" "}
           {/* main column expands to fill remaining space */}
           <HolyGrailContent overflow>
             <ExampleContent>Holy-grail-content</ExampleContent>
@@ -228,12 +224,10 @@ instead of a top-level section.
 ### Structure
 
 ```txt
-Sidebar |   Main Column   | Sidebar
-        |-----------------|
-        |     Header      |
+Sidebar |     Header      | Sidebar
         |-----------------|
         |     Content     |
--------------------------
+-----------------------------------
 Footer
 ```
 
@@ -252,7 +246,6 @@ function ExpandedFooter() {
         </HolyGrailColumn>
 
         <HolyGrailColumn expand>
-          {" "}
           {/* main column expands to fill remaining space */}
           <HolyGrailHeader>
             <ExampleHeader>HEADER</ExampleHeader>
