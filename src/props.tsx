@@ -12,7 +12,7 @@ import type { SxProps, Theme } from "@mui/material";
  *
  * @returns An array of `sx` entries
  *
- * @since 1.0.0
+ * @since 1.1.0
  * @category Utils
  * @author Simon Kovtyk
  */

@@ -2,19 +2,19 @@ import { SvgIcon } from "@mui/material";
 import { orange, petrol } from "@ogs-gmbh/mui-theme";
 import type { ComponentPropsWithRef } from "react";
 import { mergeSx } from "../props.js";
-import type { FaviconSlotProps } from "./favicon.js";
+import type { LogoIconSlotProps } from "./logo-icon.js";
 
 /**
  * Props for the {@link Logo} component.
  *
  * @param slotProps - Optional customization for individual SVG paths
  *
- * @since 1.0.0
+ * @since 1.1.0
  * @category Components
  * @author Simon Kovtyk
  */
 type LogoProps = Partial<{
-  slotProps: FaviconSlotProps & Partial<{ text: ComponentPropsWithRef<"path"> }>;
+  slotProps: LogoIconSlotProps & Partial<{ text: ComponentPropsWithRef<"path"> }>;
 }> &
   ComponentPropsWithRef<typeof SvgIcon>;
 
@@ -27,7 +27,7 @@ type LogoProps = Partial<{
  * - Icon (outer + inner paths)
  * - Text
  *
- * Use {@link Favicon} or {@link LogoText} if only parts of the logo are required.
+ * Use {@link LogoIcon} or {@link LogoText} if only parts of the logo are required.
  *
  * The logo is built on top of MUI's {@link SvgIcon} and supports full customization
  * via `slotProps`.

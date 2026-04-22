@@ -6,7 +6,7 @@ import type { ComponentPropsWithRef } from "react";
  *
  * All props are forwarded to the underlying {@link SvgIcon}.
  *
- * @since 1.0.0
+ * @since 1.1.0
  * @category Components
  * @author Simon Kovtyk
  */
@@ -17,13 +17,13 @@ type LogoTextProps = Omit<ComponentPropsWithRef<typeof SvgIcon>, "children">;
  *
  * @remarks
  * This component renders only the textual part of the logo without the icon.
- * It can be used independently or combined with {@link Favicon}.
+ * It can be used independently or combined with {@link LogoIcon}.
  *
  * Built on top of MUI's {@link SvgIcon}.
  *
  * @returns React Component
  *
- * @since 1.0.0
+ * @since 1.1.0
  * @category Components
  * @author Simon Kovtyk
  */

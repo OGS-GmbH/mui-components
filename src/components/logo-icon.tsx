@@ -2,33 +2,33 @@ import { SvgIcon } from "@mui/material";
 import type { ComponentProps, ComponentPropsWithRef } from "react";
 
 /**
- * Slot props for customizing parts of the favicon.
+ * Slot props for customizing parts of the logo-icon.
  *
  * @param outerPath - Props applied to the outer SVG path
  * @param innerPath - Props applied to the inner SVG path
  *
- * @since 1.0.0
+ * @since 1.1.0
  * @category Types
  * @author Simon Kovtyk
  */
-type FaviconSlotProps = Partial<{
+type LogoIconSlotProps = Partial<{
   outerPath: ComponentPropsWithRef<"path">;
   innerPath: ComponentPropsWithRef<"path">;
 }>;
 
 /**
- * Props for the {@link Favicon} component.
+ * Props for the {@link LogoIcon} component.
  *
  * @param slotProps - Optional customization for SVG paths:
  * - `outerPath`
  * - `innerPath`
  *
- * @since 1.0.0
+ * @since 1.1.0
  * @category Components
  * @author Simon Kovtyk
  */
-type FaviconProps = Partial<{
-  slotProps: FaviconSlotProps;
+type LogoIconProps = Partial<{
+  slotProps: LogoIconSlotProps;
 }> &
   Omit<ComponentProps<typeof SvgIcon>, "children">;
 
@@ -49,11 +49,11 @@ type FaviconProps = Partial<{
  *
  * @returns React Component
  *
- * @since 1.0.0
+ * @since 1.1.0
  * @category Components
  * @author Simon Kovtyk
  */
-function Favicon({ slotProps, ...props }: FaviconProps) {
+function LogoIcon({ slotProps, ...props }: LogoIconProps) {
   return (
     <SvgIcon {...props}>
       <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 94 94">
@@ -70,6 +70,6 @@ function Favicon({ slotProps, ...props }: FaviconProps) {
   );
 }
 
-export { Favicon };
+export { LogoIcon };
 
-export type { FaviconProps, FaviconSlotProps };
+export type { LogoIconProps, LogoIconSlotProps };
