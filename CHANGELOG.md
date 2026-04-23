@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.0](https://github.com/OGS-GmbH/mui-components/compare/v1.0.0...v1.1.0) (2026-04-23)
+
+
+### Features
+
+* add ogs logo ([#3](https://github.com/OGS-GmbH/mui-components/issues/3)) ([f1bcdf9](https://github.com/OGS-GmbH/mui-components/commit/f1bcdf955e965602486ab526049d59aaef944b97))
+
 ## 1.0.0 (2026-04-16)
 
 
