@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.1](https://github.com/OGS-GmbH/mui-components/compare/v1.1.0...v1.1.1) (2026-04-30)
+
+
+### Bug Fixes
+
+* **holy-grail:** add client-directive ([b56e7fd](https://github.com/OGS-GmbH/mui-components/commit/b56e7fd5a182c155f0d4015f4dd82390ab804e41))
+
 ## [1.1.0](https://github.com/OGS-GmbH/mui-components/compare/v1.0.0...v1.1.0) (2026-04-23)
 
 
