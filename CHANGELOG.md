@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.2](https://github.com/OGS-GmbH/mui-components/compare/v1.1.1...v1.1.2) (2026-07-20)
+
+
+### Bug Fixes
+
+* **merge-sx:** upgrade mui ([48de76a](https://github.com/OGS-GmbH/mui-components/commit/48de76af13f161318172cf41fc1bbb8aa5b9f1b4))
+
 ## [1.1.1](https://github.com/OGS-GmbH/mui-components/compare/v1.1.0...v1.1.1) (2026-04-30)
 
 
