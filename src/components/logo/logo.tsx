@@ -1,7 +1,7 @@
 import { SvgIcon } from "@mui/material";
 import { orange, petrol } from "@ogs-gmbh/mui-theme";
 import type { ComponentPropsWithRef } from "react";
-import { mergeSx } from "../props.js";
+import { mergeSx } from "../../props.js";
 import type { LogoIconSlotProps } from "./logo-icon.js";
 
 /**
