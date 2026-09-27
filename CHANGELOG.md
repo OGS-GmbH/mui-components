@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.0](https://github.com/OGS-GmbH/mui-components/compare/v1.1.2...v1.2.0) (2026-09-27)
+
+
+### Features
+
+* add logo and improve holy-grail ([a8f0b8b](https://github.com/OGS-GmbH/mui-components/commit/a8f0b8b697bfb9a77170311283e5b057e1d9317d))
+
 ## [1.1.2](https://github.com/OGS-GmbH/mui-components/compare/v1.1.1...v1.1.2) (2026-07-20)
 
 
